@@ -1,0 +1,15 @@
+{
+  "name": "custom-middleware",
+  "version": "1.0.0",
+  "description": "Making a custom middleware",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
