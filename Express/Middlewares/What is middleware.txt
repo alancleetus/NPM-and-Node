@@ -1,0 +1,8 @@
+Sits between server and the front end. 
+Middleware allows us to edit the incomming request before it gets processed and reach their final destination: GET, POST, PUT, PATCH, or DELETE. 
+
+Middleware types:
+Preprocessing: edit request.
+Logging: log request data, state, status, etc.
+Authentication: validating request origin.
+Error Handling: handling any errors in the request.
