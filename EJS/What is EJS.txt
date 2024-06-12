@@ -1,0 +1,14 @@
+Embedded JS allows us to generate dynamic html pages using JS Code.
+EJS is a templating language for js.
+EJS ends with a .ejs extension.
+It's like having a html file with embedded js in it.
+we use res.render function to render the ejs file we want to show the user instead of sending the .html file.
+
+EJS Tags: 
+always starts with <% and ends with %>
+<% console.log("hello") %>              -   JS Execute
+<%= helloStrVar %>                      -   JS Output
+<%- <p>html goes here</p> %>            -   Render HTML
+<%%  %%>                                -   escape ejs tag/ show <% or %> in plaintext
+<%# comment goes here %>                -   Stop Execution
+<%- include(header.ejs) %>              -   Insert another EJS file
